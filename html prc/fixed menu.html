@@ -1,0 +1,69 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=styles.css>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed menu</title>
+    <style>
+        .narvbar {
+            overflow: hidden;
+            background-color: green;
+            position: fixed;
+            top: 0;
+            width: 150px;
+        }
+        
+        .narvbar a {
+            float: center;
+            display: block;
+            padding: 20px 30px;
+            text-decoration: none;
+            text-align: center;
+            color: #f2f2f2;
+            font-size: 25px;
+        }
+        
+        .narvbar a:hover {
+            background-color: red;
+            color: rgb(255, 208, 0);
+        }
+        
+        .main {
+            margin-top: 30px;
+        }
+        
+        .main p {
+            text-align: center;
+            text-decoration: none;
+            float: center;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px 15px;
+        }
+        
+        body {
+            background-color: hotpink;
+        }
+        
+        .narvbar a.active {
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="narvbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="main">
+        <p>Come see the light</p>
+    </div>
+</body>
+
+</html>
